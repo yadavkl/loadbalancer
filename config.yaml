@@ -1,0 +1,6 @@
+lb_port: 3000
+strategy: least-connection
+backends:
+- "http://localhost:3001"
+- "http://llocalhost:3002"
+- "http://llocalhost:3003"
